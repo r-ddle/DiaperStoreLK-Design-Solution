@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diaper Store LK</title>
+    <meta name="description" content="A Design Solution for Diaper Store LK made by Riddle.">
+    <link rel="stylesheet" href="./output.css">
+    <script src="https://kit.fontawesome.com/97dc4f3e88.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body class="font-body">
+    <!-- mobile design -->
+    <!-- mobile size -->
+    <style>
+      @media (min-width: 640px) {
+        .mobileHome {
+          display: none;
+        }
+      }
+    </style>
+
+    
+    <div class="mobileHome">
+
+        <!-- Home Page > Top Logo&Header -->
+        <div class="mobileHomeHeader flex justify-center m-2">
+            <div class="mobileHomeLogo">
+                <i class="fa-solid fa-baby text-[90px]" style="color: #f472b6"></i>
+            </div>
+            <div class="mobileHomeHeading">
+                <h1 class="text-[40px] font-extrabold mt-1 ml-2">Diaper Store</h1>
+                <p align="right">by <span class="text-[#f472b6] font-semibold">FashionCo</span></p>
+            </div>
+
+        <div class="divider w-full absolute top-24"></div>
+
+        <!-- Home Page > Mobile Grid -->
+        <div class="mobileGridHome absolute top-36 grid grid-flow-col grid-cols-1 h-lvh">
+            <div class="mobileHomeContent m-1">
+
+                <!-- Collection 1 -->
+                <div class="card w-full bg-base-100 shadow-xl border-2" onclick="navigator.vibrate(50); location.href='brandpages/marvel.html'">
+                    <figure>
+                        <img src="assets/marveldiapers.png"/>
+                    </figure>
+                    <div class="card-body">
+                        <h2 class="card-title">
+                            Marvel
+                            <div class="badge badge-secondary">Cheap</div>
+                            <div class="badge badge-warning">Low Stock</div>
+                        </h2>
+                        <p>
+                            Grab the best Marvel products. Lowest prices on the Market!
+                        </p>
+                        <hr>
+                        <div class="card-actions justify-end">
+                            <div class="badge badge-outline">Diapers</div>
+                            <div class="badge badge-outline">Products</div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Collection 2 -->
+                <div class="card w-full bg-base-100 shadow-xl mt-5 border-2" onclick="navigator.vibrate(50); location.href='brandpages/mumandme.html'">
+                    <figure>
+                        <img src="assets/mumnmediapers.png"/>
+                    </figure>
+                    <div class="card-body">
+                        <h2 class="card-title">
+                            Mum & Me
+                            <div class="badge badge-secondary">Trending</div>
+                        </h2>
+                        <p>
+                            Mum & Me Diaper Collection
+                        </p>
+                        <hr>
+                        <div class="card-actions justify-end">
+                            <div class="badge badge-outline">Diapers</div>
+                            <div class="badge badge-outline">Products</div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Collection 3 -->
+                <div class="card w-full bg-base-100 shadow-xl mt-5 mb-5 border-2" onclick="navigator.vibrate(50); location.href='brandpages/rosebaby.html'">
+                    <figure>
+                        <img src="assets/rosebabydiapers.png"/>
+                    </figure>
+                    <div class="card-body">
+                        <h2 class="card-title">
+                            Rose Baby
+                            <div class="badge badge-warning">Low Stock</div>
+                        </h2>
+                        <p>
+                            Rose Baby Diaper collection
+                        </p>
+                        <hr>
+                        <div class="card-actions justify-end">
+                            <div class="badge badge-outline">Diapers</div>
+                            <div class="badge badge-outline">Products</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+
+        <!-- mobile navbar (bottom) -->
+        <div id="mobileNavBar" class="btm-nav transition-all ease">
+
+            <button id="home" class="active active:btn-active">
+                <i class="fa-solid fa-house w-5 h-5 pt-1"></i>
+                <span class="btm-nav-label">Home</span>
+            </button>
+
+            <button id="search" class=" active:btn-active">
+                <i class="fa-solid fa-magnifying-glass w-5 h-5 pt-1"></i>
+                <span class="btm-nav-label">Search</span>
+            </button>
+            
+            <button id="cart" class=" active:btn-active">
+                <i class="fa-solid fa-cart-shopping w-5 h-5 pt-1"></i>
+                <span class="btm-nav-label">Cart</span>
+            </button>
+
+            <button id="profile" class=" active:btn-active">
+                <i class="fa-solid fa-user w-5 h-5 pt-1"></i>
+                <span class=" btm-nav-label">Profile</span>
+            </button>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
