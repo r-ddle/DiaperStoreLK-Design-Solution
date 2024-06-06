@@ -1,10 +1,11 @@
-var prevScrollpos = window.scrollY;
-window.onscroll = function() {
-    var currentScrollPos = window.scrollY;
-    if (prevScrollpos > currentScrollPos) {
-        document.getElementById("mobileNavBar").style.bottom = "0"
-    } else {
-        document.getElementById("mobileNavBar").style.bottom = "-80px"
+document.addEventListener('DOMContentLoaded', function () {
+    function isMobile() {
+        return /Mobi|Android/i.test(navigator.userAgent);
     }
-    prevScrollpos = currentScrollPos
-}
+
+    if (isMobile()) {
+        window.location.href = './mobile.html';
+    } else {
+        window.location.href = './pc.html';
+    }
+});
