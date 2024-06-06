@@ -11,7 +11,9 @@ module.exports = {
       'serif': ['ui-serif', 'Georgia'],
       'mono': ['ui-monospace', 'SFMono-Regular'],
       'display': ['Oswald'],
-      'body': ['"Poppins"'],
+      'body': ['"Nunito"'],
+      'header': ['"Bebas Neue"'],
+      'fun': ['"Poppins"'],
     },
     extend: {}
   },
