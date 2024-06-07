@@ -9797,6 +9797,10 @@ html:has(.drawer-open.drawer-open) {
   background-image: url('assets/rosebabydiapers.png');
 }
 
+.bg-\[linear-gradient\(220\.55deg\2c _\#DDE4FF_0\%\2c _\#8DA2EE_100\%\)\] {
+  background-image: linear-gradient(220.55deg, #DDE4FF 0%, #8DA2EE 100%);
+}
+
 .decoration-slice {
   -webkit-box-decoration-break: slice;
           box-decoration-break: slice;
